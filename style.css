@@ -1,0 +1,101 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(210, 243, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main_page {
+    border-radius: 8px;
+    padding: 14px;
+    background-color: #fff;
+    /* width: 300px; */
+}
+
+.name {
+    display: flex;
+    gap: 8px;
+    margin-block: 16px 10px;
+}
+
+.name input, .address input {
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+    padding-inline: 8px;
+}
+
+.name input::placeholder, .address input::placeholder, .message_con textarea::placeholder {
+font-size: 12px;
+}
+.name input:focus, .address input:focus, .message_con textarea:focus {
+    outline: none;
+    border: 1px solid #000;
+} 
+
+.address {
+    /* border: 2px solid red; */
+}
+.address input {
+    width: 100%;
+}
+
+.query_type {
+    margin-block: 10px;
+}
+
+.query_type > label {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.the_query_type {
+    display: flex;
+    gap: 8px;
+}
+
+.general_enquiry, .support_request {
+    border: 2px solid #ccc;
+    width: 50%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-inline: 8px;
+    border-radius: 4px;
+}
+
+.message_con {
+    /* border: 2px solid red; */
+}
+.message_con label {
+    margin-bottom: 8px;
+    display: block;
+}
+.message_con textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid #ccc;
+} 
+
+.consent_box {
+    margin-block: 12px;
+}
+
+.btn {
+    width: 100%;
+    background-color: rgb(35, 140, 140);
+    border: none;
+    padding-block: 6px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
